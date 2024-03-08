@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.sendy.victor.grpc",
+    "module": "grpc-interface-demo",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grpc-interface-demo-1.0.0.jar",
+          "url": "grpc-interface-demo-1.0.0.jar",
+          "size": 30891,
+          "sha512": "30c3debc60afb63b8c893ef62083df405b4049fa9d691ac3d2f9e266d90972c13b690ecd1a0303cd6a9b1bf0f5ee908f6eaf1085ba00177d53202e5474ccdcc9",
+          "sha256": "7d0ad3832d03f2d5f0cc3b407b01fab0575085b455147674424830c223cf1cd5",
+          "sha1": "895c009b0215df1799bc9958232b40a5273dd1ee",
+          "md5": "68a0ac9e8320c9cfb4530697fa086670"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.grpc",
+          "module": "grpc-protobuf",
+          "version": {
+            "requires": "1.58.0"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-stub",
+          "version": {
+            "requires": "1.58.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grpc-interface-demo-1.0.0.jar",
+          "url": "grpc-interface-demo-1.0.0.jar",
+          "size": 30891,
+          "sha512": "30c3debc60afb63b8c893ef62083df405b4049fa9d691ac3d2f9e266d90972c13b690ecd1a0303cd6a9b1bf0f5ee908f6eaf1085ba00177d53202e5474ccdcc9",
+          "sha256": "7d0ad3832d03f2d5f0cc3b407b01fab0575085b455147674424830c223cf1cd5",
+          "sha1": "895c009b0215df1799bc9958232b40a5273dd1ee",
+          "md5": "68a0ac9e8320c9cfb4530697fa086670"
+        }
+      ]
+    }
+  ]
+}
